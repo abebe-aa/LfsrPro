@@ -14,4 +14,5 @@ def lfsr(state, mask):
 
     return [tmp] + state[:-1]
 
+
 print(lfsr(lfsr_state, mask))
